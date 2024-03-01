@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { TfiAlignJustify } from "react-icons/tfi";
 import { FaXmark } from "react-icons/fa6"
 import { Divide as Hamburger } from 'hamburger-react'
-const Navbar = () => {
+const Navbar = (props) => {
 
     const [isMenuopen, setisMenuopen] = useState(false)
     const [isSticky, setisSticky] = useState(false)
@@ -38,10 +38,10 @@ const Navbar = () => {
     }, []); // Pass an empty dependency array to run the effect only once on mount
     
     const navitems = [
-        { path: "#Home", link: "Home" },
-        { path: "#service", link: "Services" },
-        { path: "#Jobs", link: "jobs" },
-        { path: "#Contactus", link: "Contactus" },
+        { path: props.home, link: "Home" },
+        { path: props.service, link: "Services" },
+        { path: props.jobs, link: "jobs" },
+        { path: props.contact, link: "Contactus" },
        
         
 
@@ -63,7 +63,10 @@ const Navbar = () => {
                             // console.log(navitems)
                             navitems.map(({ link, path }) => (
 
-                                <Link href={path} key={path} activeClass="active" spy={true} scroll={true} offset={-100} className="block  scroll-smooth text-base text-white uppercase hover:text-blue-500 transition-all ease-in duration-300"> {link} </Link>
+                                <Link href={path} key={path} activeClass="active" spy={true} scroll={true} offset={-100} className="block scroll-smooth text-base text-white uppercase hover:text-blue-500 transition-all ease-in duration-300">
+                                {link}
+                              </Link>
+                              
                             ))
                         }
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./footer.css"
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa6'
+import Link from 'next/link'
+import jdnj from "../Services/Commercials/page"
 
 const Footer = () => {
   return (
@@ -32,7 +34,7 @@ const Footer = () => {
                 <div className="space-y-4">
                     <h3 className='text-xl font-semibold'>Services</h3>
                     <div className='space-y-1  text-gray-300'>
-                        <a href='/' className='block  underline'>COMMERCIALS</a>
+                        <Link href='/components/Services/Commercials' className='block  underline'>COMMERCIALS</Link>
                         <a href='/' className='block underline'>INTERIORS</a>
                         <a href='/' className='block underline'>MEDICAL & HEALTH</a>
                         <a href='/' className='block underline'>HOTELS & HOSPITALITY</a>

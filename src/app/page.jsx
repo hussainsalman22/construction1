@@ -8,8 +8,9 @@ import { ChakraProvider } from '@chakra-ui/react'
     
 export default function Home() {
   return (
+    <div id="Home">
     <ChakraProvider>
-    <Navbar />
+    <Navbar home="#home" service="#service" contact="#contact" jobs="#service" />
     <Hero/>
     <Service/>
     <Contactus/>
@@ -17,5 +18,6 @@ export default function Home() {
 
 
     </ChakraProvider>
+    </div>
   );
 }
