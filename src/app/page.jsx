@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div id="Home">
     <ChakraProvider>
-    <Navbar home="#home" service="#service" contact="#contact" jobs="#" />
+    {/* <Navbar home="#home" service="#service" contact="#contact" jobs="#" /> */}
     <Hero/>
     <Service/>
     <Contactus/>
