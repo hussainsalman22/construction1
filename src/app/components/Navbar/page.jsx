@@ -55,7 +55,7 @@ const Navbar = (props) => {
                 <div className="top-0 bg-black fixed  w-screen z-50">
                 <nav className="py-4 lg:px-24 px-4 flex justify-between align-middle transition-all duration-300 ease-in  lg:gap-32 sm:gap-20 ">
                     <div className='flex justify-between items-center text-base'>
-                        <a href='/' className='text-white text-xl flex justify-center items-center'><span className='text-blue-500 text-3xl font-bold'>TM</span><span className='sm:flex hidden'> Construction</span><span className='text-blue-500 text-3xl font-bold sm:flex hidden'>&</span><span className='sm:flex hidden'> Remodelling</span> </a>
+                        <Link href='/' className='text-white text-xl flex justify-center items-center'><span className='text-blue-500 text-3xl font-bold'>TM</span><span className='sm:flex hidden'> Construction</span><span className='text-blue-500 text-3xl font-bold sm:flex hidden'>&</span><span className='sm:flex hidden'> Remodelling</span> </Link>
                     </div>
                     <ul className='hidden md:flex  align-middle items-center space-x-12 navitems'>
                         {
