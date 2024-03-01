@@ -69,7 +69,7 @@ const Contactus = () => {
                             <div className="col-span-1">
                                 <div className="google-maps">
                                     <div className="map-wrap">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189838.07357765472!2d-88.50498280174519!3d41.97408825412882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f00b095a0fd1f%3A0xaa640e3e15725f30!2sOntarioville%2C%20IL%2060103%2C%20USA!5e0!3m2!1sen!2s!4v1708970282368!5m2!1sen!2s" width="100%" height="450" style={{border:0}}s allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189838.07357765472!2d-88.50498280174519!3d41.97408825412882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f00b095a0fd1f%3A0xaa640e3e15725f30!2sOntarioville%2C%20IL%2060103%2C%20USA!5e0!3m2!1sen!2s!4v1708970282368!5m2!1sen!2s" width="100%" height="450" style={{border:0}} loading="lazy"></iframe>
                                     </div>
                                 </div>
                             </div>

@@ -63,7 +63,7 @@ const Navbar = (props) => {
                             // console.log(navitems)
                             navitems.map(({ link, path }) => (
 
-                                <Link href={path} key={path} activeClass="active" spy={true} scroll={true} offset={-100} className="block scroll-smooth text-base text-white uppercase hover:text-blue-500 transition-all ease-in duration-300">
+                                <Link href={path} key={path}  offset={-100} className="block scroll-smooth text-base text-white uppercase hover:text-blue-500 transition-all ease-in duration-300">
                                 {link}
                               </Link>
                               
@@ -90,7 +90,7 @@ const Navbar = (props) => {
                             // console.log(navitems)
                             navitems.map(({ link, path }) => (
 
-                                <Link href={path} key={path} activeClass="active" spy={true} smooth={true} offset={-100} className="block 
+                                <Link href={path} key={path}  offset={-100} className="block 
                                 text-base text-white uppercase !important hover:text-blue-500"> {link} </Link>   
                             ))
                         }
