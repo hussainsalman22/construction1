@@ -38,10 +38,10 @@ const Navbar = (props) => {
     }, []); // Pass an empty dependency array to run the effect only once on mount
     
     const navitems = [
-        { path: props.home, link: "Home" },
-        { path: props.service, link: "Services" },
-        { path: props.jobs, link: "jobs" },
-        { path: props.contact, link: "Contactus" },
+        { path: props.home || "null ", link: "Home" },
+        { path: props.service || "null", link: "Services" },
+        { path: props.jobs || "null", link: "jobs" },
+        { path: props.contact ||"null", link: "Contactus" },
        
         
 
