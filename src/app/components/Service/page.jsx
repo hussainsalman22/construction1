@@ -1,12 +1,12 @@
 import React from 'react'
-import LargedevicesService  from "../../components/LargedevicesService/page.jsx"
+import Serviceslarge  from "../Serviceslarge/page.jsx"
 import MobileService from "../Mobileservices/page.jsx"
 
 const Service = () => {
     return (
         <div id='service'>
             <div className="md:block hidden">
-                < LargedevicesService />
+                < Serviceslarge />
             </div>
             <div className="md:hidden block">
                 <MobileService />
