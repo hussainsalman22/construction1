@@ -28,7 +28,7 @@ const MobileService = () => {
         <div className='flex md:w-2/3 w-full md:h-10 justify-center border-2 rounded-full border-black  bg-slate-200'>
           <div className=' flex  flex-col md:flex-row justify-items-end content-center items-center  md:gap-11 '>
 
-            <h2 className='italic'>"FROM SMALL TO BIG, WE DO IT ALL"</h2>
+            <h2 className='italic font-bold'>"FROM SMALL TO BIG, WE DO IT ALL"</h2>
             <h1 className='md:text-4xl text-xl font-bold '>SERVICES</h1>
 
 
