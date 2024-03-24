@@ -1,8 +1,8 @@
 "use client"
 import React from 'react';
 import * as Tabs from '@radix-ui/react-tabs';
-import Cards from './cards';
-import Corousel from "./corousel"
+import Cards from './cards1';
+
 import Corouselcard from "./corouselcard"
 
 const Tab = (props) => (
@@ -34,7 +34,7 @@ const Tab = (props) => (
       className="grow p-2 bg-white rounded-b-md outline-none focus:shadow-[0_0_0_2px] focus:shadow-black"
       value="tab2"
     >
-      {console.log(props.afterdescription1)}
+    
       <Corouselcard  beforephoto1={props.beforephoto1}
           beforedescription1={props.beforedescription1}
           afterphoto1={props.afterphoto1}

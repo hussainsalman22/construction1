@@ -9,7 +9,7 @@ import {
     CarouselPrevious,
 } from "../../../../@/components/ui/carousel"
 import bth from "../../assets/electric.jpg"
-import Cards from "./cards"
+import Cards from "../largedevicesService/cards"
 import Door from "../../assets/door.jpg"
 import Image from "next/image"
 export default function Corousel(props) {
@@ -76,36 +76,7 @@ export default function Corousel(props) {
                                 </div>
                             </CarouselItem>
                         </React.Fragment>
-                        {/* <CarouselItem key={3} className="min-w-72 scroll-ps-6 snap-x ...">
-                            <div className="p-0">
-                                <Card className="border-0">
-                                    <CardContent className="flex flex-col  items-center justify-start  rounded-lg px-4  ">
-                                        <Image src={props.beforephoto2} className="w-72 h-36 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 rounded-lg "></Image>
-                                        <div className="flex flex-wrap w-72  ">
-                                            <Heading size="md" className="mt-2">BEFORE</Heading>
-                                            <p className="overflow-hidden ">{props.beforedescription2}</p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-
-
-                            </div>
-                        </CarouselItem>
-                        <CarouselItem key={4} className="min-w-72 scroll-ps-6 snap-x ...">
-                            <div className="p-0">
-                                <Card className="border-0">
-                                    <CardContent className="flex flex-col  items-center justify-start  rounded-lg px-4  ">
-                                        <Image src={props.afterphoto2} className="w-72 h-36 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 rounded-lg "></Image>
-                                        <div className="flex flex-wrap w-72  ">
-                                            <Heading size="md" className="mt-2">AFTER</Heading>
-                                            <p className="overflow-hidden ">{props.afterdescription2}</p>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-
-
-                            </div>
-                        </CarouselItem> */}
+                        
                     </>
                 ))}
             </CarouselContent>

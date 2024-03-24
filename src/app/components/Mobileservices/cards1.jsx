@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardHeader, CardBody, Stack, Heading, Text } from '@chakra-ui/react'
 // import  {Image } from '@chakra-ui/react'
 import Image from 'next/image'
-import kitchen from "../../assets/Kitchens.jpg"
+
 const Cards = (props) => {
   return (
     <>

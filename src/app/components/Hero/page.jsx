@@ -1,17 +1,15 @@
 import React from 'react'
 import { IoMdCall } from "react-icons/io";
-import Image from 'next/image';
-import img from "../../assets/heroimg.png"
 import { HiWrenchScrewdriver } from "react-icons/hi2"
 import Cards from "../Hero/cards"
-
+import Link from 'next/link';
 
 const Hero = () => {
     return (
         <div className='text-black mt-30 lg:mb-36 mb-10'>
             <div className="bg-blue-600 rounded-full size-40 -mx-20" />
             <div className='flex justify-between w-full'>
-                <div className='ml-3 lg:w-1/2 w-full '>
+                <div className='ml-3 lg:w-1/2 my-10 lg:my-20 w-full '>
                     <p className="w-full text-4xl ">Construction</p>
                     <p className="mt-3.5 w-full font-bold text-4xl">& Remodeling.</p>
                     <div className='ml-2 my-5'>
@@ -24,8 +22,8 @@ const Hero = () => {
                         <li>Insured & Bonde</li>
                     </ul>
                     <div className='flex md:mx-28  gap-5 mt-5'>
-                        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 sm:px-8 rounded' >Services</button>
-                     <a href='tel:92320'>   <button  className='bg-black hover:bg-slate-900 text-white font-bold py-2 px-4 sm:px-8 rounded flex justify-center items-center sm:gap-2'><IoMdCall />Call us</button></a>
+                       <Link href="#service"> <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 sm:px-8 rounded' >Services</button></Link>
+                        <a href='tel:92320'>   <button className='bg-black hover:bg-slate-900 text-white font-bold py-2 px-4 sm:px-8 rounded flex justify-center items-center sm:gap-2'><IoMdCall />Call us</button></a>
 
                     </div>
 
@@ -38,18 +36,18 @@ const Hero = () => {
                             <p className='text-white italic font-thin '>"No Job is to small"</p>
 
                         </div>
-                       
+
                         <div className=' static flex gap-2 flex-wrap content-center justify-center '>
                             <Cards main="4.5+" data=" GOOGLE RATING" />
                             <Cards main="5+" data=" YEARS OF WARRANTY" />
-                            
-                        
-                        <br/>
+
+
+                            <br />
                             <Cards main="1986" data="since" />
                             <Cards main="10+" data=" YEARS OF BUISNESS" />
-                            
+
                         </div>
-                        
+
 
 
 

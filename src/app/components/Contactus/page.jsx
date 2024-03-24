@@ -8,7 +8,7 @@ import "./contact.css"
 const Contactus = () => {
     return (
         <div id="contact">
-            <div className="contact-content">
+            <div className="contact-content mt-20">
                 <div className="text-grid">
                     <div className="text-grid-main">
                         <div className="container">
