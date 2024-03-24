@@ -24,7 +24,7 @@ import improv2 from "../../assets/improv2.jpg";
 import improv3 from "../../assets/improv3.jpg";
 import improv4 from "../../assets/improv4.jpg";
 import { Tabs } from "../../../../@/components/ui/tab";
-const LargedevicesService =()=> {
+const Serviceslarge = () => {
   const tabs = [
     {
       title: "NEW STRUCTURES",
@@ -190,12 +190,12 @@ const LargedevicesService =()=> {
         <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b  flex-col max-w-5xl mx-auto w-full  items-start justify-start my-10 flex">
           <Tabs tabs={tabs} />
         </div>
-        
 
-      
+
+
       </div>
     </>
   );
 }
-export default  LargedevicesService ;
+export default Serviceslarge;
 
