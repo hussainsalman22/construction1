@@ -24,8 +24,7 @@ import improv2 from "../../assets/improv2.jpg";
 import improv3 from "../../assets/improv3.jpg";
 import improv4 from "../../assets/improv4.jpg";
 import { Tabs } from "../../../../@/components/ui/tab";
-
-export default function LargedevicesService(props) {
+const LargedevicesService =()=> {
   const tabs = [
     {
       title: "NEW STRUCTURES",
@@ -198,5 +197,5 @@ export default function LargedevicesService(props) {
     </>
   );
 }
-
+export default  LargedevicesService ;
 
