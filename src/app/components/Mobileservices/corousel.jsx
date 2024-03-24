@@ -8,9 +8,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "../../../../@/components/ui/carousel"
-import bth from "../../assets/electric.jpg"
-import Cards from "../largedevicesService/cards"
-import Door from "../../assets/door.jpg"
+
 import Image from "next/image"
 export default function Corousel(props) {
     return (

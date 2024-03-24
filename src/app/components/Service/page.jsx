@@ -1,12 +1,12 @@
 import React from 'react'
-import {TabsDemo} from "../largedevicesService/page"
+import  {LargedevicesService} from "../LargedevicesService/page"
 import MobileService from "../Mobileservices/page"
 
 const Service = () => {
   return (
     <div id='service'>
         <div className="md:block hidden">
-            <TabsDemo />
+            < LargedevicesService />
           </div>
           <div  className="md:hidden block">
             <MobileService />

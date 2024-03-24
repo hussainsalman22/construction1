@@ -27,7 +27,7 @@ import improv4 from "../../assets/improv4.jpg";
 import Image from "next/image";
 import { Tabs } from "../../../../@/components/ui/tab";
 
-export function TabsDemo(props) {
+export function LargedevicesService(props) {
   const tabs = [
     {
       title: "NEW STRUCTURES",
@@ -147,7 +147,7 @@ export function TabsDemo(props) {
 
   return (
     <>
-      <div id="service">
+      <div>
         <div className="flex flex-col md:flex-row items-center gap-8 md:mx-28">
           <div className="flex md:w-2/3 w-full md:h-10 justify-center border-2 rounded-full border-black  bg-slate-200">
             <div className=" flex  flex-col md:flex-row justify-items-end content-center items-center  md:gap-11 ">
@@ -193,22 +193,12 @@ export function TabsDemo(props) {
         <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b  flex-col max-w-5xl mx-auto w-full  items-start justify-start my-10 flex">
           <Tabs tabs={tabs} />
         </div>
-        {/* <div className='md:hidden'>
-    <LayoutGridDemo />
-    </div> */}
+        
+
+      
       </div>
     </>
   );
 }
 
-const DummyContent = () => {
-  return (
-    <Image
-      src={bath4}
-      alt="dummy image"
-      width="1000"
-      height="1000"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
-    />
-  );
-};
+
