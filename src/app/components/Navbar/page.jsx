@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { TfiAlignJustify } from "react-icons/tfi";
-import { FaXmark } from "react-icons/fa6"
 import { Divide as Hamburger } from 'hamburger-react'
 const Navbar = (props) => {
 
@@ -19,12 +18,12 @@ const Navbar = (props) => {
         const handleScroll = () => {
             if (window.scrollY >= 100) {
                 setisSticky(true);
-                console.log("hello");
+               
                 
             } else {
                 setisSticky(false);
             }
-            console.log(isSticky)
+           
         };
        
     

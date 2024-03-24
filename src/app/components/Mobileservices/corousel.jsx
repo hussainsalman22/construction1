@@ -38,7 +38,7 @@ export default function Corousel(props) {
                                             <Image src={props.afterphoto1} className="w-52 sm:w-72 h-36 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 rounded-lg" />
                                             <div className="flex flex-wrap w-52 sm:w-72 flex-col">
                                                 <Heading size="md" className="mt-2">AFTER</Heading>
-                                                {console.log(props.afterdescription1)}
+
                                                 <p className="overflow-hidden">{props.afterdescription1}</p>
                                             </div>
                                         </CardContent>
@@ -52,7 +52,7 @@ export default function Corousel(props) {
                                             <Image src={props.beforephoto2} className="w-52 sm:w-72 h-36 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 rounded-lg" />
                                             <div className="flex flex-wrap w-52 sm:w-72 flex-col">
                                                 <Heading size="md" className="mt-2">BEFORE</Heading>
-                                                {console.log(props.beforedescription2)}
+
                                                 <p className="overflow-hidden">{props.beforedescription2}</p>
                                             </div>
                                         </CardContent>
@@ -66,7 +66,7 @@ export default function Corousel(props) {
                                             <Image src={props.afterphoto2} className="w-52 sm:w-72 h-36 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 rounded-lg" />
                                             <div className="flex flex-wrap w-52 sm:w-72 flex-col">
                                                 <Heading size="md" className="mt-2">AFTER</Heading>
-                                                {console.log(props.afterdescription2)}
+
                                                 <p className="overflow-hidden">{props.afterdescription2}</p>
                                             </div>
                                         </CardContent>
@@ -74,7 +74,7 @@ export default function Corousel(props) {
                                 </div>
                             </CarouselItem>
                         </React.Fragment>
-                        
+
                     </>
                 ))}
             </CarouselContent>
